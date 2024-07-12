@@ -52,5 +52,6 @@ To run this project locally, ensure you have Node.js and npm installed on your m
    ```bash
    git clone <repository-url>
    cd <project-folder>
+   ```
 
    Created with ❤️ by llillak
