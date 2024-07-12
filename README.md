@@ -25,7 +25,7 @@ This project is a React application that allows users to view and interact with 
 
 ![Screenshot 2](/screenshots/screenshot2.png)
 
-![Screenshot 3](/screenshots/screenshot23.png)
+![Screenshot 3](/screenshots/screenshot3.png)
 
 ## Technologies Used
 
