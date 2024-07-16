@@ -1,4 +1,4 @@
-import { Answer, CharactersAnswer } from "../interfaces";
+import { Answer, CharacterResult } from "../interfaces";
 
 const root: string = "https://rickandmortyapi.com/api/";
 
@@ -18,7 +18,7 @@ async function bringCharacters(): Promise<Answer> {
         );
       }
 
-      const rawData: CharactersAnswer = await response.json();
+      const rawData: CharacterResult = await response.json();
       console.log(`Fetched page ${currentPage}`);
       
       

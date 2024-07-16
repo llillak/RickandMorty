@@ -1,14 +1,14 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import Home from "./components/Home";
+import { AppProvider } from "./context/AppProvider";
+import "./index.css";
 
-import './App.css'
-import Home from './pages/Home/Home'
-
-function App() {
-
-  return (
-    <>
+ReactDOM.render(
+  <React.StrictMode>
+    <AppProvider>
       <Home />
-    </>
-  )
-}
-
-export default App
+    </AppProvider>
+  </React.StrictMode>,
+  document.getElementById("root")
+);

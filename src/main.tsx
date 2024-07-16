@@ -1,10 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom";
+import Home from "./components/Home";
+import { AppProvider } from "./context/AppProvider";
+import "./index.css";
+import "./Home.css";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppProvider>
+      <Home />
+    </AppProvider>
   </React.StrictMode>,
-)
+  document.getElementById("root")
+);
