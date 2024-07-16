@@ -95,7 +95,7 @@ const Home: React.FC = () => {
           )}
         </div>
       ) : (
-        <div>
+        <div className="box">
           <div>
             <input
               type="text"
